@@ -1,0 +1,13 @@
+{
+  "id": "card_draft-edge-prompt",
+  "title": "Draft an edge-runtime prompt",
+  "summary": "Experimental: compress a desktop prompt into a token-tight variant for an edge runtime.",
+  "tags": ["edge", "compile", "prompt"],
+  "trust": "experimental",
+  "runtime": "edge",
+  "inputs": ["source_prompt", "token_budget"],
+  "body": "EXPERIMENTAL / DEV CARD.\n\nGiven a source prompt and a token budget, produce a compressed variant that preserves intent under the budget.\n\nReturn: { compressed_prompt, dropped, risk_notes }. Be explicit in risk_notes about meaning that may have been lost. This Card is unreviewed — do not rely on its output without checking.",
+  "source": "card-forge",
+  "version": "0.0.3",
+  "created": "2026-05-28T18:40:00Z"
+}

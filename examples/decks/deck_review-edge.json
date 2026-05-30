@@ -1,0 +1,12 @@
+{
+  "id": "deck_review-edge",
+  "title": "Review + edge deck",
+  "summary": "A Deck bundling the trusted review pass with the experimental edge stack. Mixed trust on purpose, to show how trust mix surfaces.",
+  "tags": ["review", "edge"],
+  "trust": "generated",
+  "target_runtime": "edge",
+  "stack_ids": ["stack_review-pass", "stack_edge-experiments"],
+  "card_ids": [],
+  "source": "card-forge",
+  "created": "2026-05-29T11:15:00Z"
+}

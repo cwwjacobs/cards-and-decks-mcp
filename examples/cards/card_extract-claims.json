@@ -1,0 +1,13 @@
+{
+  "id": "card_extract-claims",
+  "title": "Extract verifiable claims",
+  "summary": "Pull out the discrete, checkable claims a document makes, separating fact-claims from opinions.",
+  "tags": ["analysis", "claims", "review"],
+  "trust": "trusted",
+  "runtime": "desktop",
+  "inputs": ["document"],
+  "body": "Read the document and list its discrete claims.\n\nFor each claim output: { text, type: fact|opinion|prediction, how_to_check }.\n\nKeep claims atomic — one assertion each. Do not editorialize. If a claim is unverifiable, mark how_to_check as 'not checkable'.",
+  "source": "card-forge",
+  "version": "1.0.0",
+  "created": "2026-05-21T09:30:00Z"
+}

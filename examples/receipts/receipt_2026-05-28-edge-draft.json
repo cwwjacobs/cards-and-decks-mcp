@@ -1,0 +1,11 @@
+{
+  "id": "receipt_2026-05-28-edge-draft",
+  "kind": "run",
+  "status": "partial",
+  "summary": "Tried the experimental edge-prompt Card; output needed manual fixes. Logged as partial.",
+  "card_id": "card_draft-edge-prompt",
+  "run_id": "run_a771",
+  "agent": "claude-desktop",
+  "notes": "Experimental Card. Partial status reflects that the result was not relied upon as-is.",
+  "created": "2026-05-28T19:20:00Z"
+}

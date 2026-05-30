@@ -1,0 +1,13 @@
+{
+  "id": "card_triage-finding",
+  "title": "Triage a review finding",
+  "summary": "Classify a single review finding by severity and suggest a next action, with an explicit claim boundary.",
+  "tags": ["review", "triage", "severity"],
+  "trust": "generated",
+  "runtime": "desktop",
+  "inputs": ["finding"],
+  "body": "Given one review finding, output: { severity: stop_the_line|important|advisory, rationale, next_action }.\n\nState the claim boundary: what your severity DOES and DOES NOT mean. Severity reflects review priority only — it is not a statement that the code is safe or unsafe to ship.",
+  "source": "card-forge",
+  "version": "0.2.0",
+  "created": "2026-05-25T14:05:00Z"
+}

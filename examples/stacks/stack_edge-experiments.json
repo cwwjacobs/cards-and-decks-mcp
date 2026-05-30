@@ -1,0 +1,10 @@
+{
+  "id": "stack_edge-experiments",
+  "title": "Edge experiments",
+  "summary": "Experimental/dev Cards aimed at edge runtimes. Clearly labeled — not for relied-upon work.",
+  "tags": ["edge", "experimental"],
+  "trust": "experimental",
+  "card_ids": ["card_draft-edge-prompt"],
+  "source": "card-forge",
+  "created": "2026-05-28T19:00:00Z"
+}

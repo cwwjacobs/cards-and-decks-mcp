@@ -1,0 +1,10 @@
+{
+  "id": "stack_review-pass",
+  "title": "Review pass",
+  "summary": "A small ordered pass for reviewing a change: summarize the diff, extract claims, triage findings.",
+  "tags": ["review"],
+  "trust": "trusted",
+  "card_ids": ["card_summarize-diff", "card_extract-claims", "card_triage-finding"],
+  "source": "card-forge",
+  "created": "2026-05-26T08:00:00Z"
+}

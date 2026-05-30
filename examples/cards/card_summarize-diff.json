@@ -1,0 +1,13 @@
+{
+  "id": "card_summarize-diff",
+  "title": "Summarize a code diff",
+  "summary": "Produce a tight, reviewer-facing summary of a git diff: what changed, why it matters, and what to check.",
+  "tags": ["review", "git", "summarize"],
+  "trust": "trusted",
+  "runtime": "desktop",
+  "inputs": ["diff"],
+  "body": "You are summarizing a code diff for a busy reviewer.\n\nGiven a unified diff, output:\n1. One sentence: what this change does.\n2. Files touched, grouped by intent.\n3. Up to 3 things a reviewer should verify.\n\nDo not invent behavior not present in the diff. If the diff is incomplete, say so.",
+  "source": "card-forge",
+  "version": "1.0.0",
+  "created": "2026-05-20T10:00:00Z"
+}

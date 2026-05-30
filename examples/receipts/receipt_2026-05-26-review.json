@@ -1,0 +1,12 @@
+{
+  "id": "receipt_2026-05-26-review",
+  "kind": "run",
+  "status": "ok",
+  "summary": "Ran the review pass over a small diff; produced a summary and 2 triaged findings.",
+  "stack_id": "stack_review-pass",
+  "card_id": "card_summarize-diff",
+  "run_id": "run_8f12",
+  "agent": "claude-desktop",
+  "notes": "Read-only record. This Receipt was written by Card Forge, not by this MCP server.",
+  "created": "2026-05-26T08:42:00Z"
+}
