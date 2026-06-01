@@ -1,0 +1,25 @@
+# Build output
+build/
+dist/
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local environment
+.env
+.env.*
+
+# Local operator data — keep private Card indexes out of the repo.
+# Point CARDS_AND_DECKS_DATA at a folder outside the tree, or store it here:
+data/
+!examples/
