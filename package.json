@@ -21,8 +21,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node build/server.js",
-    "smoke-test": "node build/scripts/smoke-test.js",
-    "prepare": "tsc"
+    "smoke-test": "node build/scripts/smoke-test.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.0",
