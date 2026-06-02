@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for cards-and-decks-mcp on 2026-06-02T01:13:29Z
+# fly.toml app configuration file generated for cards-and-decks-mcp on 2026-06-02T01:13:51Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -25,7 +25,7 @@ primary_region = 'ord'
 [[vm]]
   memory = '2gb'
   cpu_kind = 'shared'
-  cpus = 2
+  cpus = 4
   memory_mb = 2048
   processes = ['app']
-  size = 'shared-cpu-2x'
+  size = 'shared-cpu-4x'
